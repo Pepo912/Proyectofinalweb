@@ -1,0 +1,324 @@
+/**Aplique color al fondo de la pagina**/
+body{
+    background-color: beige;
+    }
+    
+    /**dividi el div info que contiene las secciones del dv**/
+    .info{
+        display: grid;
+        position: relative;
+    }
+    
+    /**Aplique estilos a la presentacion del cv**/
+    .pres{
+        width: 100%;;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    
+    }
+    
+    /**Aplique estilos a la descripcion del cv*/
+    .desc{
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        width: 250px;
+        height: 100%;
+        text-align: center;
+        border: 5px solid rgb(0, 0, 0);
+        word-wrap: break-word; 
+        padding-bottom: 117px;
+    }
+    
+    /**Agregue borde a la imagen y la redondee**/
+    .desc img{
+        margin-top: 30px;
+        border-radius: 50%;
+        border: 5px solid rgb(0, 0, 0);
+        
+    }
+    
+    /**Ajuste el tamaño del div contenido**/
+    .contenido{
+        height: 100vh;
+        width: 100%;
+    }
+    
+    /**Aplique estilo y tamaño al titulo contactos**/
+    .contc h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+    }
+
+    /**Quite las viñetas en los items de contacto**/
+    .contc ul {
+        list-style-type: none;
+    }
+    
+    /**Agregue imagen a las viñetas en los items de contacto**/
+    .contc ul #a { 
+        height: 25px;
+        width: 150px;
+        background-image:  url(telefono.png);
+        background-position: 0 0;
+        background-size: 1.5rem 1.5rem;
+        background-repeat: no-repeat;
+    }
+    
+    .contc ul #b {
+        height: 25px;
+        width: 215px;
+        background-image:  url(correo.png);
+        background-position: 0 0;
+        background-size: 1.5rem 1.5rem;
+        background-repeat: no-repeat;
+    }
+
+    /**Los items de la lista de habilidades se pone azul al pasarlo por el mouse, esto con cada uno de los items**/
+    .contc ul #a:hover{
+        color: blue;
+        font-size: 15px;
+    }
+    
+    .contc ul #b:hover{
+        color: blue;
+        font-size: 15px;
+    }
+    
+    /**Aplique estilo y tamaño al titulo habilidades**/
+    .hab h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+    }
+    
+    /**Los items de la lista de habilidades se pone azul al pasarlo por el mouse, esto con cada uno de los items**/
+    .hab ul #tr:hover{
+        color: blue;
+        font-size: 18px;
+    }
+    /**Ajuste de tamaño a los items de habilidades**/
+    .hab ul #tr{
+        font-size: 20px;
+        width: 200px;
+        text-align: left;
+    }
+    
+    .hab ul #co:hover{
+        color: blue;
+        font-size: 18px;
+    }
+    
+    .hab ul #co{
+        font-size: 20px;
+        width: 200px;
+        text-align: left;
+    }
+    
+    .hab ul #res:hover{
+        color: blue;
+        font-size: 18px;
+    }
+    
+    .hab ul #res{ 
+        font-size: 19px;
+        width: 200px;
+        text-align: left;
+    }
+    
+    .hab ul #org:hover{
+        color: blue;
+        font-size: 18px;
+    }
+    
+    .hab ul #org{
+        font-size: 20px;
+        width: 200px;
+        text-align: left;
+    }
+    
+    .hab ul #adp:hover{
+        color: blue;
+        font-size: 18px;
+    }
+    
+    .hab ul #adp{
+        font-size: 20px;
+        width: 200px;
+        text-align: left;
+    }
+    
+    /**Aplique estilo a la fuente del titulo educacion**/
+    .educ h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 30px;
+    }
+    
+    /**Ajuste de tamaño a los items de educacion**/
+    .educ ul #lic{
+        font-size: 20px;
+        width: 200px;
+        text-align: left;
+    }
+    
+    .educ ul #tec{
+        font-size: 20px;
+        width: 200px;
+        text-align: left;
+    }
+    
+    .educ ul a{
+        font-size: 20px;
+        width: 200px;
+        text-align: left;
+    
+    }
+    
+    .educ ul #lic{
+        padding-bottom: 20px;
+    }
+    
+    /**Aplique estilos al div prof**/
+    .prof{
+        height: 100%;
+        padding-left: 260px;
+        padding-bottom: 117px;
+        background-color: white;
+        border: 5px solid black;
+    }
+    
+    /**Ajuste el div de perfil**/
+    .perfil{
+        padding: 5px;
+        padding-bottom: 50px;
+    }
+    
+    /**Ajuste el div de experiencias**/
+    .exp{
+        padding: 5px;
+    }
+    
+    /**Aplique estilo a la fuente del titulo de experiencias laborales**/
+    .exp h2{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    /**Ajuste el div de experiencias**/
+    .exp1{
+        height: auto;
+        width: auto;
+        padding-bottom: 50px;
+    }
+    
+    /**Aplique estilo a la fuente del titulo de experiencias laborales**/
+    .exp1 h3{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    /**Aplique estilo a la fuente del titulo de experiencias laborales**/
+    .exp2 h3{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    
+/**Celu**/
+/**Basicamente achique cada uno de los tamaños del css**/
+
+@media (max-width: 767px) {
+    body {
+        background-color: beige;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .info {
+        display: grid;
+        position: relative;
+    }
+    
+    .pres {
+        margin-left: 20px;
+        width: auto;
+        color: rgb(255, 255, 255);
+        background-color: black;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+    .desc {
+        position: relative; 
+        background-color: rgb(255, 255, 255);
+        width: auto; 
+        text-align: center;
+        border: 3px solid rgb(0, 0, 0);
+        margin-left: 20px;
+    }
+    
+    .desc img {
+        border-radius: 50%;
+        border: 3px solid rgb(0, 0, 0);
+        width: 150px; 
+        height: 150px; 
+    }
+    
+    .contenido {
+        height: auto; 
+        width: 100%;
+        padding-left: 20px; 
+    }
+    
+    .contc h2 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px; 
+    }
+    
+    .contc ul {
+        list-style-type: none;
+        padding-left: 20px;
+    }
+    
+    .contc ul li {
+        height: auto;
+        width: auto;
+        margin: 10px 0; 
+    }
+    
+    .contc ul #a,
+    .contc ul #b {
+        background-size: 1.2rem 1.2rem; 
+        padding-left: 25px; 
+        line-height: 1.5rem;
+        font-size: 16px; 
+    }
+    
+    .hab h2 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+    
+    .hab ul li {
+        font-size: 18px; 
+        width: 100%; 
+        margin: 5px 0;
+    }
+    
+    .educ h2 {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 20px;
+    }
+    
+    .educ ul li {
+        font-size: 18px;
+        width: 100%;
+        margin: 5px 0;
+    }
+    
+    .prof {
+        height: auto;
+        width: 84%;
+        padding: 5% ; 
+        margin: 120px 20px;
+        border: 3px solid black;
+        
+    }
+}
